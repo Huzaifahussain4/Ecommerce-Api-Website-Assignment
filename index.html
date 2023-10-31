@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Products UI</title>
+  </head>
+  <body>
+    <div id="continer" class="containerDiv">
+      <div class="nav">
+        <span class="navTitle">Product Cards</span> 
+        <div id="searchDiv" class="srchDiv">
+          <input type="text" class="srchInput" id="searchInput" placeholder="Search products...">
+          <button id="searchBtn" class="searchButton">Search</button>
+        </div>
+      </div>
+
+      <div class="secSection">
+
+        <div class="filters">
+          <div class="filterHeading">Filter</div>
+          <div id="filterDiv" class="filterDiv">
+            <label for="all" class="inputLabel">
+            <input type="radio" name="category" id="all" value="all" checked>
+            All</label>
+            <label for="electronics" class="inputLabel">
+            <input type="radio" name="category" id="electronics" value="electronics">
+            Electronics</label>
+            <label for="mensClothing" class="inputLabel">
+              <input type="radio" name="category" id="mensClothing" value="men's clothing">
+              Men's Clothing</label>
+              <label for="womensClothing" class="inputLabel">
+                <input type="radio" name="category" id="womensClothing" value="women's clothing">
+                Women's Clothing</label>
+                <label for="jewelery" class="inputLabel">
+                <input type="radio" name="category" id="jewelry" value="jewelry">
+                Jewelry</label>
+          </div>
+          
+          <!-- <select id="categoryFilter">
+            <option value="">All Categories</option>
+            <option value="men's clothing">Men's Clothing</option>
+            <option value="women's clothing">Women's Clothing</option>
+            <option value="electronics">Electronics</option>
+            <option value="jewelery">Jewelry</option>
+          </select> -->
+        </div>
+
+
+
+        <div class="productList" id="productCards"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <!-- <div class="card">
+            <div class="imgDiv">
+              <img src="https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg" alt=""/>
+            </div>
+            <div class="titleDiv">first product</div>
+            <div class="descriptionDiv">
+              Your perfect pack for everyday use and walks in the forest. Stash
+              your laptop (up to 15 inches) in the padded sleeve, your everyday
+            </div>
+            <div class="mainDivPriceAndRating">
+                <div class="priceNratingDiv">price</div>
+                <div class="priceNratingDiv">ratings</div>
+            </div>
+            <div class="productBtnDiv">
+                <button class="productBtn grayBtn">Add to cart</button>
+                <button class="productBtn greenBtn">Buy</button>
+            </div>
+          </div> -->
